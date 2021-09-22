@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <nav>
+            <!-- <h1 id="header-name">Julio</h1> -->
+            <ul id="nav-cont">
+                <li>
+                    <a id="nav-icon">☰</a>
+                    <ul>
+                        <li ><a  class="nav-links" href="#sec-1">About</a></li>
+                        <li><a  class="nav-links" href="#sec-2">Education</a></li>
+                        <li ><a  class="nav-links" href="#sec-3">Projects</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="background">
+            <h1>Julio Lima</h1>
+            <h2>Computer Science Student</h2>
+            <div class="links-cont">
+                <h3>Github</h3>
+                <a href="https://github.com/Julio-L" class="fa fa-github project-link" style="font-size:36px"></a>             
+            </div>
+
+        </div>
+        
+        <div id="sec-1" class="heading-cont">
+            <img id="profile-icon" src="./crop.png"></img>
+            <!-- <div>
+                <h3>I'm a Computer Science student at Stony Brook University!</h3>
+            </div> -->
+            <div class="bio-desc">
+                <h2>Julio Lima</h2>
+                <p id="bio">
+                    Hello! I am a computer science student at Stony Brook University. I'm currently in my senior year 
+                    and on track to graduate this fall! As I reach the end of my college chapter, I'm excited to 
+                    find out what the future has in store. When I'm not focusing on my studies, I like to spend a lot 
+                    of my free time working on personal projects or solving coding puzzles. Improving my tech skills 
+                    is one of my top priorties. The reason comes from the empowering nature that comes from programming. 
+                    Being able to have an idea and make it a reality with just your finger tips is extremely rewarding. 
+                </p>              
+            </div>
+            <div>
+                <h2>Tech Skills</h2>
+                <ul class="tech-skills">
+                    <li>Java</li>
+                    <li>Javascript/React</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                </ul>
+
+                    <h2>Contact</h2>
+                    <p>Email: julio.lima@stonybrook.edu</p>
+            </div>
+        </div>
+        <div id="sec-2" class="layer-1">
+            <div class ="education-cont">
+                <h1 class="section-heading"><b>Education</b></h1>
+                <div class="education-details">
+                    <div class="outer-r1">
+                        <img id="school-logo" src="./school-logo.png" />
+                        <div class="education-r1">
+                            <b>Stony Brook University </b>
+                            <span>2017-</span>
+                        </div>
+                    </div>
+                  
+                    <div class="education-r2">
+                        <b>Computer Science, B.S.</b>
+                        <span>Stony Brook, NY</span>
+                    </div>
+                </div>
+            </div>
+            <div class="coursework">
+                <h1 class="section-heading">Relevant Coursework</h1>
+                <ul class="classes-taken">
+                    <li>Introduction to Object-Oriented Programming</li>
+                    <li>Data Structures</li>
+                    <li>Discrete Math</li>
+                    <li>Systems Fundamentals I/II</li>
+                    <li>Analysis of Algorithms</li>
+                    <li>Principles of Programming Languages</li>
+                    
+                </ul>
+            </div>
+
+        
+
+            <div id="sec-3" class="outer-projects">
+                <div class="projects">
+                    <h1 class="projects-heading">Projects</h1>
+                    <div class="proj-card">
+                        <img id ="lib-image" class= "main-proj" src = "./lib-item2.png"/>
+
+                        <div class="card-desc-lib">
+                            <div class="lib-but-cont">
+                                <button id="switch">Next Image</button>
+                            </div>
+                            <h2><b>Anime/Manga Library</b></h2>
+                            <p>
+                                This application is inspired by my interest in Anime and Manga. Due to the immense 
+                                selection of Anime and Manga out there, I struggled to keep track of bookmark 
+                                information such as episode or page number. So, I decided to fix the problem by using the skills I have aquired in my studies. 
+                                The application allows users to record episode number, page number, rating, and any notes 
+                                they may have regarding a particular piece of Anime or Manga. Other cool features include window resizing, 
+                                image customization, and more.
+                            <ul class="project-tools">
+                                <h3>Languages/Tools Used</h3>
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                            </ul>
+                            <h3>Source Code</h3>
+                            <p>The source code is currently in a private GitHub repository. If 
+                                you would like to see the source code or aquire the application, please email me!</p>
+                        </div>
+                    </div>
+
+                    <div id="tetris-card" class="proj-card">
+                        
+                        <div class="card-desc">
+                            <h2><b>Tetris Game</b></h2>
+                            <p>A simple Tetris game made entirely in Java. What inspired me to create 
+                                this game was this lingering sense of self doubt in my programming cabalities. I didn't think 
+                                I could build Tetris at the time.  
+                                I guess you could call it imposter syndrome. However, after many hours of coding and headaches,
+                                 I managed to complete the game and proved to myself that there are no limits to what I can create.</p>
+                            <ul class="project-tools">
+                                <h3>Languages/Tools Used</h3>
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                            </ul>
+                            <h3>Source Code</h3>
+                            <a  href="https://github.com/Julio-L/TetrisGame" class="fa fa-github project-link" style="font-size:36px"></a>       
+                        
+                        </div>
+                        <div class="image-cont">
+                            <img id="tetris" class= "main-proj" src = "./tetris.png"/>
+                        </div>
+                        
+                    </div>
+
+                    <div class="proj-card">
+                        <img id="school-img" class= "main-proj" src = "./school2.png"/>
+                      
+                        <div class="card-desc-school-portal">
+                            <div class="lib-but-cont">
+                                <button id="switch2">Next Image</button>
+                            </div>
+        
+                            <h2><b>School Portal</b></h2>
+                            <p>This project is currently in progress. The idea of the project is to create a 
+                                nice way for students and teachers to communicate during the school year. I was inspired by the 
+                                lack of real time access to information regarding grades and feedback during my high school years. 
+                                Everything was paper based and slow. As I continue to develop this application, I hope this project 
+                                will inspire high schools to adopt a more electronic approach regarding how students and teachers communicate.</p>
+                            <ul class="project-tools">
+                                <h3>Languages/Tools Used</h3>
+                                <li>Javascript</li>
+                                <li>React[Client]</li>
+                                <li>Express[Server]</li>
+                                <li>MySQL[Database]</li>
+                            </ul>
+                            <h3>Source Code</h3>
+                            <a  href="https://github.com/Julio-L/SchoolSystem" class="fa fa-github project-link" style="font-size:36px"></a>    
+                        </div>
+                        
+                    </div>
+                    
+                   
+                   
+                </div>
+            </div>
+            <div class="footer">
+                <h2>CREATED BY: Julio Lima</h2>
+            </div>
+        </div>
+
+        
+
+
+    </body>
+    <script>
+        let lib_images = ["./lib-item2.png", "./lib-item1.png"];
+        let school_images = ["./school2.png", "./school1.png"];
+        let lib_count = 1;
+        let school_count = 1;
+
+        let lib_button = document.getElementById("switch");
+        let school_button = document.getElementById("switch2");
+       
+        function switchLibImage(){
+            let img = document.getElementById("lib-image");
+            img.src = lib_images[lib_count%2]
+            lib_count +=1;
+        }
+
+        function switchSchoolImage(){
+            let img = document.getElementById("school-img");
+            img.src = school_images[school_count % 2];
+            school_count +=1;
+        }
+
+        lib_button.addEventListener('click', switchLibImage);
+        school_button.addEventListener('click', switchSchoolImage);
+
+    </script>
+</html>
