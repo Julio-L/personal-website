@@ -33,6 +33,8 @@ body{
 }
 
 nav{
+    position: fixed;
+    top:0px;
     display: flex;
     justify-content:right;
     align-items: baseline;
