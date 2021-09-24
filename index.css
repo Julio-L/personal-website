@@ -55,6 +55,10 @@ nav{
 
 }
 
+#updated-bio{
+    margin-top: 10px;
+}
+
 #bio{
     max-width: 500px;
     font-size: 18px;
