@@ -118,6 +118,13 @@ nav ul li:hover ul{
     margin:auto;
 }
 
+@media screen and (max-width: 900px) {
+    .heading-cont{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+  }
+
 .links-cont{
     margin-top: 30px;
     text-align: center;
